@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="10" tilewidth="70" tileheight="70" nextobjectid="1">
+ <tileset firstgid="1" name="Background" tilewidth="70" tileheight="70" tilecount="9" columns="3">
+  <image source="../../../../WCoursJava/PCoursJava/src/main/ressources/map/tuiles/platformerGraphicsDeluxe_Updated/bg.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="10" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2" tilecount="156" columns="12">
+  <image source="../../../../WCoursJava/PCoursJava/src/main/ressources/map/tuiles/platformerGraphicsDeluxe_Updated/Tiles/tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <tileset firstgid="166" name="grassy_tileset" tilewidth="32" tileheight="32" tilecount="800" columns="20">
+  <image source="../../data/img/tilesets/grassy_tileset.png" width="640" height="1280"/>
+  <tile id="0">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="CollisionLayer" width="30" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC1vGwMCwbBRTDXPT0a5CLLgIKsdApplxRNgpB8SL0DCp9nThcTuxdhJjrxIZYdFFwE5c9qL7CZd/RjH5GABmiU5HsAQAAA==
+  </data>
+ </layer>
+ <layer name="Object" width="30" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXUAF4D7YBRMApGAAAAsRXkv7AEAAA=
+  </data>
+ </layer>
+</map>

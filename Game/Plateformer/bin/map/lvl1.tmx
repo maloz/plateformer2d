@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="10" tilewidth="128" tileheight="128" nextobjectid="1">
+ <tileset firstgid="1" name="spritesheet_ground" tilewidth="128" tileheight="128" tilecount="128" columns="8">
+  <image source="tuiles/platformer-pack-redux-360-assets/Spritesheets/spritesheet_ground.png" width="1024" height="2048"/>
+ </tileset>
+ <tileset firstgid="129" name="grassy_tileset" tilewidth="32" tileheight="32" tilecount="800" columns="20">
+  <image source="../../data/img/tilesets/grassy_tileset.png" width="640" height="1280"/>
+  <tile id="0">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="929" name="Object" tilewidth="128" tileheight="128" tilecount="128" columns="8">
+  <image source="tuiles/platformer-pack-redux-360-assets/Spritesheets/spritesheet_tiles.png" width="1024" height="2048"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="25" height="10" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBQMdwAAgBcLBugDAAA=
+  </data>
+ </layer>
+ <layer name="CollisionLayer" width="25" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2tkYGBoHMV0xXlAHIeEw2hgvjwQh6NhaplvjsN8UuzgB2J2NFxHobuuMjMw7GWmbliao8UVDOtTOc5ojQHcJ4NW6AMAAA==
+  </data>
+ </layer>
+ <layer name="Object" width="25" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXYwGNmCH2XeWDdQSo4REX3Xoaa9XgQh8HqQey2wQQAV6bFtegDAAA=
+  </data>
+ </layer>
+</map>

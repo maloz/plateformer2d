@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="game.character.Character"/>
+<fullyQualifiedTypeName name="game.controller.PlayerController"/>
+<fullyQualifiedTypeName name="game.controller.MouseAndKeyBoardPlayerController"/>
+<fullyQualifiedTypeName name="game.enums.Facing"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="game.level.tile.AirTile"/>
+<fullyQualifiedTypeName name="game.level.tile.SolidTile"/>
+<fullyQualifiedTypeName name="game.physics.BoundingShape"/>
+<fullyQualifiedTypeName name="game.physics.AABoundingRect"/>
+<fullyQualifiedTypeName name="game.physics.Physics"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="game.level.tile.Tile"/>
+<fullyQualifiedTypeName name="java.awt.Image"/>
+<fullyQualifiedTypeName name="game.level.LevelObject"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.Animation"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.SlickException"/>
+<fullyQualifiedTypeName name="game.objective.Objective"/>
+<fullyQualifiedTypeName name="game.character.Player"/>
+<fullyQualifiedTypeName name="game.WindowGame"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.Image"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.tiled.TiledMap"/>
+<fullyQualifiedTypeName name="org.newdawn.slick.Color"/>
+<fullyQualifiedTypeName name="game.level.Level"/>
+<fullyQualifiedTypeName name="game.projectile.Projectile"/>
+<fullyQualifiedTypeName name="org.lwjgl.input.Mouse"/>
+</qualifiedTypeNameHistroy>

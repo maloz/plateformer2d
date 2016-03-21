@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="10" tilewidth="70" tileheight="70" nextobjectid="1">
+ <tileset firstgid="1" name="Background" tilewidth="70" tileheight="70" tilecount="9" columns="3">
+  <image source="../../../../WCoursJava/PCoursJava/src/main/ressources/map/tuiles/platformerGraphicsDeluxe_Updated/bg.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="10" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2" tilecount="156" columns="12">
+  <image source="../../../../WCoursJava/PCoursJava/src/main/ressources/map/tuiles/platformerGraphicsDeluxe_Updated/Tiles/tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <layer name="Ciel" width="30" height="10">
+  <properties>
+   <property name="tileType" value="air"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NhYGBgBWI2IGYhkc1IAmYCYmYkvexAzAHEnGSwibUT2a3IemFuIYdNDEZ2K0wvqWFLbDgz0SicSYlbaoYzMeloIMIZ2W5kPfQMZ2T9MHqkAQCxNqMXsAQAAA==
+  </data>
+ </layer>
+ <layer name="Background" width="30" height="10">
+  <properties>
+   <property name="tileType" value="air"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjgIFBf6AdMMRBwQBh0xGGAe7crUmwBAAA
+  </data>
+ </layer>
+ <layer name="CollisionLayer" width="30" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXUAHpQmpuOdmoBcSEaLqLQzDgi7JQD4kVomFTQxUC823HZSYy9ShS4DZeduOxF9xOlcTEKMAEAKYtpArAEAAA=
+  </data>
+ </layer>
+</map>
