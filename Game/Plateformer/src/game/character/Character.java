@@ -77,7 +77,7 @@ public abstract class Character extends LevelObject {
             y_velocity = -0.8f;
     }
     public void shoot(float f, float g) throws SlickException{
-    	Level.addLevelObject(new Projectile((float) f, (float) g));
+    	Level.addLevelObject(new Projectile((float) f, (float) g, this.facing));
     }
     
     public void moveLeft(int delta){

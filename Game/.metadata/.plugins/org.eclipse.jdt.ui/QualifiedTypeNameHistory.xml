@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="game.character.Character"/>
 <fullyQualifiedTypeName name="game.controller.PlayerController"/>
 <fullyQualifiedTypeName name="game.controller.MouseAndKeyBoardPlayerController"/>
-<fullyQualifiedTypeName name="game.enums.Facing"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="game.level.tile.AirTile"/>
 <fullyQualifiedTypeName name="game.level.tile.SolidTile"/>
@@ -25,4 +24,5 @@
 <fullyQualifiedTypeName name="game.level.Level"/>
 <fullyQualifiedTypeName name="game.projectile.Projectile"/>
 <fullyQualifiedTypeName name="org.lwjgl.input.Mouse"/>
+<fullyQualifiedTypeName name="game.enums.Facing"/>
 </qualifiedTypeNameHistroy>

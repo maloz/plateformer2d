@@ -48,7 +48,7 @@ public class MouseAndKeyBoardPlayerController extends PlayerController {
     	
     	if(i.isMousePressed(Input.MOUSE_LEFT_BUTTON))
     	{
-    		player.shoot(Mouse.getX() , 1080- Mouse.getY());
+    		player.shoot(player.getX() , player.getY()+120);
     	}
     }
 
