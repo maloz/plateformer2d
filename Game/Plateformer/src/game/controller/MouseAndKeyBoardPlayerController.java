@@ -48,6 +48,10 @@ public class MouseAndKeyBoardPlayerController extends PlayerController {
     	
     	if(i.isMousePressed(Input.MOUSE_LEFT_BUTTON))
     	{
+    		System.out.println("Abs x" + i.getAbsoluteMouseX());
+    		System.out.println("x" + i.getMouseX());
+    		System.out.println("abs y" + i.getAbsoluteMouseY());
+    		System.out.println("y" + i.getMouseY());
     		player.shoot(player.getX() , player.getY()+120);
     	}
     }

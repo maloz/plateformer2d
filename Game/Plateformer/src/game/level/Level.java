@@ -8,8 +8,6 @@ import game.character.Player;
 import game.level.tile.AirTile;
 import game.level.tile.SolidTile;
 import game.level.tile.Tile;
-import game.objective.Objective;
-
 import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
 import org.newdawn.slick.tiled.TiledMap;
@@ -36,7 +34,6 @@ public class Level {
 		this.player = player;
 		addCharacter(player);
 		loadTileMap();
-
 	}
 
 	private void loadTileMap() {

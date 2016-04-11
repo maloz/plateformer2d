@@ -137,8 +137,6 @@ public class Physics {
 				// have to revert to our original position
 				if (checkCollision(obj, level.getTiles())) {
 					
-					
-
 					// undo our step, and set the velocity and amount we still
 					// have to move to 0, because we can't move in that
 					// direction
